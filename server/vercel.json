@@ -8,20 +8,20 @@
   ],
   "routes": [
     {
-      "src": "/js/(.*)",
-      "dest": "/public/js/"
+      "src": "js/(.*)",
+      "dest": "public/js/"
     },
     {
-      "src": "/css/(.*)",
-      "dest": "/public/css/"
+      "src": "css/(.*)",
+      "dest": "public/css/"
     },
     {
-      "src": "/asset/(.*)",
-      "dest": "/public/asset/"
+      "src": "asset/(.*)",
+      "dest": "public/asset/"
     },
     {
-      "src": "/Data/(.*)",
-      "dest": "/public/Data/"
+      "src": "Data/(.*)",
+      "dest": "public/Data/"
     },
     {
       "src": "/(.*)",
