@@ -10,22 +10,24 @@
     {
       "src": "/(.*)",
       "dest": "index.js"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/JS/(.*)",
+      "destination": "/public/JS/"
     },
     {
-      "src": "/JS/(.*)",
-      "dest": "/public/JS/"
+      "source": "/css/(.*)",
+      "destination": "/public/css/"
     },
     {
-      "src": "/css/(.*)",
-      "dest": "/public/css/"
+      "source": "/asset/(.*)",
+      "destination": "/public/asset/"
     },
     {
-      "src": "/asset/(.*)",
-      "dest": "/public/asset/"
-    },
-    {
-      "src": "/Data/(.*)",
-      "dest": "/public/Data/"
-    },
+      "source": "/Data/(.*)",
+      "destination": "/public/Data/"
+    }
   ]
 }
