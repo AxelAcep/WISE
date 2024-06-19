@@ -1,0 +1,21 @@
+.Detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.buttonadmin{
+    width: 20%; 
+    font-size: 1vw;
+    padding: 0.3vw;
+}
+
+@media (min-width: 2000px){
+    .buttonadmin{
+        width: 20%; 
+        font-size: medium;
+        padding: 10px;
+    }
+}

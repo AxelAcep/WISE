@@ -1,0 +1,152 @@
+/* CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    height: 100%;
+}
+
+.main-container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.row {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 2000px;
+    max-height: 1400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container-logo {
+    position: relative;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    width: 30%;
+    background-color: rgb(136, 162, 255);
+}
+
+.container-Login {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.Img1 {
+    margin-bottom: 15%;
+    width: 70%;
+    height: auto;
+    filter: brightness(70%);
+}
+
+.container-Help{
+    width: 100%;
+    height: 27%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+}
+
+.ButtonLink {
+    margin-right: 3%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(136, 162, 255);
+    width: auto;
+    max-width: 100%;
+}
+
+.ButtonLink:hover  {
+    text-decoration: none; 
+}
+
+.container-LoginForm{
+    width: 100%;
+    height: 58%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Text1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 4%;
+}
+
+.form-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.ButtonLink2 {
+    margin-right: 0;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(136, 162, 255);
+    width: auto;
+    max-width: 100%;
+}
+
+.ButtonLink2:hover  {
+    text-decoration: none; 
+}
+
+.form-group{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.boxes{
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+
+.Top-Right{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.submitbutton{
+    border-radius: 10px;
+    width: 40%;
+    border: 1px solid rgb(4, 1, 167);
+    background-color: rgb(136, 162, 255);
+    margin-top: 2%;
+}
+
+.Img2{
+    padding-top: 10%;
+    width: 30%;
+    height: auto;
+}

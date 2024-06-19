@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "wiseeduk_db",
+    "password": "sayajomblo",
+    "database": "wiseeduk_wise",
+    "host": "web10-cpn.neohosting.id",
+    "dialect": "mysql"
+  },
+ "production": {
+    "username": "wiseeduk_db",
+    "password": "sayajomblo",
+    "database": "wiseeduk_wise",
+    "host": "web10-cpn.neohosting.id",
+    "dialect": "mysql"
+  },
+ "test": {
+    "username": "wiseeduk_db",
+    "password": "sayajomblo",
+    "database": "wiseeduk_wise",
+    "host": "web10-cpn.neohosting.id",
+    "dialect": "mysql"
+  }
+}

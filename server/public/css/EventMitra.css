@@ -1,0 +1,67 @@
+.TextHead{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3% ;
+    margin-left: 11%;
+    width: 87%;
+    display: flex;
+    align-items: center;
+}
+
+.ImgFilter{
+    height: 1.5vw;
+    width: auto;
+    max-height: 32px ;
+}
+
+.MitraText{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 1%;
+}
+
+.Pending{
+    grid-template-columns: repeat(3, 30vw); 
+    grid-template-rows: repeat(1, 21vw);
+    height: fit-content;
+}
+
+.textdetail{
+    font-size: 1.2vw;
+    padding-bottom: auto;
+    padding-top: auto;
+}
+
+.ButtonMitra{
+    width: 5vw;
+    height: 5vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 4%;
+    bottom: 4%;
+    z-index: 10;
+    background-color: #0401A7;
+    border-radius: 100%;
+}
+
+@media (min-width: 2000px) {
+    .MitraText{
+        font-size: 32px;
+    }
+
+    .Pending{
+        grid-template-columns: repeat(3, 600px); 
+        grid-template-rows: repeat(1, 420px);
+    }
+    .textdetail{
+        font-size: x-large;
+    }
+}

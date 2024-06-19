@@ -1,0 +1,170 @@
+.ButtonMitra{
+    width: 10vw;
+    height: 4vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 4%;
+    bottom: 4%;
+    z-index: 10;
+    background-color: #0401A7;
+    border-radius: 1%;
+}
+
+.ButtonMitra1{
+  width: 10vw;
+  height: 4vw;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 4%;
+  bottom: 4%;
+  z-index: 10;
+  background-color: #dd0707;
+  border-radius: 1%;
+}
+
+.ButtonMitra2{
+  width: 10vw;
+  height: 4vw;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 45%;
+  bottom: 4%;
+  z-index: 10;
+  background-color: #110147;
+  border-radius: 1%;
+}
+
+.detail-event-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.DetailEventMitra-ButtonText{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vw;
+    font-weight:600;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+.container {
+  width: 53vw;
+  max-width: 999px;
+  padding: auto;
+  background: #ffffff00;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.drag-area {
+  height: 20vw;
+  max-height: 420px;
+  width: 50vw;
+  max-width: 960px;
+  border: 3px dashed #e0eafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px auto;
+}
+h3 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.drag-area .icon {
+  font-size: 2vw;
+  color: #1683ff;
+}
+.drag-area .header {
+  font-size: 2vw;
+  font-weight: 500;
+  color: #34495e;
+}
+.drag-area .support {
+  font-size: 1vw;
+  color: gray;
+  margin: 10px 0 15px 0;
+}
+.drag-area .button {
+  font-size: 2vw;
+  font-weight: 500;
+  color: #1683ff;
+  cursor: pointer;
+}
+.drag-area.active {
+  border: 2px solid #1683ff9a;
+}
+.drag-area img {
+  width: 51vw;
+  max-width: 960px;
+  max-height: 500px ;
+  object-fit: cover;
+}
+.download {
+  background-color: #0401A7;
+  border: none;
+  color: white;
+  padding: 6px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  margin: 3px 1px;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 51vw;
+  max-width: 960px;
+  max-height: 100px ;
+}
+
+.TextUploud{
+  font-size: 2vw;
+}
+
+  .Mitra-BigText{
+    font-size: 2vw;
+    padding: auto;
+  }
+
+  .Mitra-MediumText{
+    font-size: 1vw ;
+  }
+
+  .titleInput{
+    background-color: transparent;
+  }
+
+  @media (min-width: 2000px){
+    .Mitra-BigText{
+      font-size: 32px;
+    }
+  
+    .Mitra-MediumText{
+      font-size: 18px ;
+    }
+    .download {
+      font-size: xx-large;
+    }
+    .drag-area .icon {
+      font-size: xx-large;
+    }
+    .drag-area .header {
+      font-size: xx-large;
+    }
+    .drag-area .support {
+      font-size: x-large;
+    }
+    .drag-area .button {
+      font-size: xx-large;
+    }
+
+    .TextUploud{
+      font-size: xx-large;
+    }
+  }

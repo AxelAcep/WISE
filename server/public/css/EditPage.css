@@ -1,0 +1,15 @@
+.Edit-Img{
+    width: 3vw;
+    height: auto;
+    max-width: 45px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1; /* Pastikan gambar edit di atas gambar detail */
+}
+
+.detail-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
