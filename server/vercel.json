@@ -9,19 +9,19 @@
   "routes": [
     {
       "src": "/js/(.*)",
-      "dest": "public/js/$1"
+      "dest": "/public/js/"
     },
     {
       "src": "/css/(.*)",
-      "dest": "public/css/$1"
+      "dest": "/public/css/"
     },
     {
       "src": "/asset/(.*)",
-      "dest": "public/asset/$1"
+      "dest": "/public/asset/"
     },
     {
       "src": "/Data/(.*)",
-      "dest": "public/Data/$1"
+      "dest": "/public/Data/"
     },
     {
       "src": "/(.*)",
