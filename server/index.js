@@ -22,7 +22,7 @@ app.use(cors());
 app.use(express.json());
 
 // Middleware untuk melayani berkas statis dari direktori 'public'
-app.use('/js', express.static(path.join(__dirname, 'public/js')));
+app.use('/JS', express.static(path.join(__dirname, 'public/JS')));
 app.use('/css', express.static(path.join(__dirname, 'public/css')));
 app.use('/asset', express.static(path.join(__dirname, 'public/asset')));
 app.use('/Data', express.static(path.join(__dirname, 'public/Data')));
