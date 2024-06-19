@@ -8,24 +8,24 @@
   ],
   "routes": [
     {
+      "src": "/JS/(.*)",
+      "dest": "/public/JS/"
+    },
+    {
+      "src": "/css/(.*)",
+      "dest": "/public/css/"
+    },
+    {
+      "src": "/asset/(.*)",
+      "dest": "/public/asset/"
+    },
+    {
+      "src": "/Data/(.*)",
+      "dest": "/public/Data/"
+    },
+    {
       "src": "/(.*)",
       "dest": "index.js"
-    },
-    {
-      "source": "/JS/(.*)",
-      "destination": "/public/JS/"
-    },
-    {
-      "source": "/css/(.*)",
-      "destination": "/public/css/"
-    },
-    {
-      "source": "/asset/(.*)",
-      "destination": "/public/asset/"
-    },
-    {
-      "source": "/Data/(.*)",
-      "destination": "/public/Data/"
     }
   ]
 }
